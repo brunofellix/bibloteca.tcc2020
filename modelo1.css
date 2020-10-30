@@ -1,0 +1,3640 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+body {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	background-repeat: no-repeat;
+	/*background-image:;* TALVEL COLOCAR DEPOIS*/
+	background-position: center;
+	background-size: cover;
+}
+main, section, footer {
+	width: 1200px;
+	overflow: hidden;
+}
+main {
+	width: 1200px;
+	overflow: hidden;
+	margin: 95px auto 0 auto;
+	position: relative;
+	background: #fff;
+}
+nav {
+	width: 100%;
+	height: 40px;
+	margin-bottom: 20px;
+	background-color:#000F5A;
+	position: fixed;  /*menu fixo*/
+	left: 0;
+	top: 20px;
+	z-index: 5000;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 0 45px;
+	float: right;
+}
+ul {
+	list-style-type: none;  /*retirando marcadores*/
+}
+ul>li {
+	display: inline-block;/*nomes em horizntal*/
+}
+ul>li>a:link { /*atribuindo em todos os linques através class*/
+	font-size: 14px;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	padding: 10px 30px;
+	line-height: 0px;
+	display: block;
+	text-decoration: none;
+	list-style-type: none;
+}
+.linque:visited {
+	color: #fff;
+}
+.linque:hover {
+	color: #4900FF;
+}
+.logomenu {
+	width: 160px;
+	margin-top: -19px;
+	margin-left: -45px;
+	float: left;
+	height: 70px;
+}
+/*PÁGINA PRINCIPAL*/
+
+
+.slide {
+	width: 100%;
+	margin: auto;
+	overflow: hidden;
+	margin-top: -16px;
+}
+.slide ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	animation: trasicao 20s infinite alternate;
+	animation-timing-function: ease;
+}
+.slide li {
+	width: 100%;
+	list-style: none;
+}
+.imgslide {
+	width: 100%;
+	height: 300px;
+}
+ @keyframes trasicao {
+ 0% {
+margin-left:0;
+}
+ 20% {
+margin-left:0;
+}
+ 25% {
+margin-left:-100%;
+}
+ 45% {
+margin-left:-100%;
+}
+ 50% {
+margin-left:-200%;
+}
+ 70% {
+margin-left:-200%;
+}
+ 75% {
+margin-left:-300%;
+}
+ 100% {
+margin-left:-300%;
+}
+}
+div > .fotoprincipal {
+	width: 1200px;
+	height: 450px;
+}
+.titulofoto {
+	font-size: 23px;
+	font: "MS Serif", "New York", serif;
+	color: #FFFFFF;
+	line-height: 45px;
+	margin-top: -145px;
+	margin-left: 50px;
+}
+.pessoas {
+	font-size: 23px;
+	font: "salinas", Gadget, sans-serif;
+	color: #FFC400;
+	line-height: 45px;
+	margin-top: -60px;
+	margin-left: 310px;
+}
+.servicosmenu {
+	width: 1200px;
+	text-align: center;
+	font-size: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	height: 500px;
+	margin-top: 20px;
+	line-height: 2;
+}
+.nossoprincipal {
+	font-size: 25px;
+	color: #660033;
+	text-transform: uppercase;
+	font-weight: lighter;
+	margin-bottom: 80px;
+	margin-top: 80px;
+}
+.servicostexto {
+	font-size: 20px;
+	margin: 60px;
+	line-height: 50px;
+	text-align: center;
+}
+.div1 {
+	width: 430px;
+	height: 690px;
+	float: right;
+	border: 2px solid rgba(16,60,199,1.00);
+	margin-right: 50px;
+}
+.div2 {
+	width: 430px;
+	height: 690px;
+	float: left;
+	border: 2px solid rgba(16,60,199,1.00);
+	margin-left: 50px;
+}
+.sobreintermodal {
+	font-size: 25px;
+	color: #660033;
+	text-transform: uppercase;
+	font-weight: lighter;
+	margin-top: 20px;
+	text-align: center;
+	margin-left: 10px;
+}
+.seguranca {
+	font-size: 25px;
+	color: #660033;
+	text-transform: uppercase;
+	font-weight: lighter;
+	margin-top: 20px;
+	text-align: center;
+	margin-left: 10px;
+}
+.segurancacaminhao {
+	width: 350px;
+	height: 250px;
+	margin-top: 50px;
+	margin-left: 40px;
+	float: left;
+}
+.caminhao {
+	width: 350px;
+	height: 250px;
+	margin-top: 50px;
+	margin-right: 40px;
+	float: right;
+}
+.primeirotexto {
+	font-size: 18px;
+	text-align: center;
+	color: #000000;
+	margin-top: 360px;
+	line-height: 30px;
+	text-decoration: none;
+	font-weight: lighter;
+}
+.segundotexto {
+	font-size: 18px;
+	text-align: center;
+	color: #000000;
+	margin-top: 360px;
+	line-height: 30px;
+	text-decoration: none;
+	font-weight: lighter;
+}
+.botao1 {
+	width: 80px;
+	height: 20px;
+	background-color: rgba(16,60,199,1.00);
+	float: right;
+	margin-top: 70px;
+	font-size: 14px;
+	color: #FFFFFF;
+	border-radius: 15px;
+	text-decoration: blink;
+	text-align: center;
+	margin-right: 175px;
+}
+.botao2 {
+	width: 80px;
+	height: 20px;
+	background-color: rgba(16,60,199,1.00);
+	float: left;
+	margin-top: 20px;
+	font-size: 14px;
+	color: #FFFFFF;
+	border-radius: 15px;
+	text-decoration: blink;
+	text-align: center;
+	margin-left: 180px;
+}
+.fixa {
+	width: 1200px;
+	height: 350px;
+	margin-top: 30px;
+	background-image: url(imagens/biblioteca-premia-livro.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.fotofixaintermodal {
+	font-size: 50px;
+	color: #FFFFFF;
+	text-align: left;
+	float: left;
+	font: Georgia, "Times New Roman", Times, serif;
+	margin-top: -345px;
+	margin-left: 20px;
+	font-style: oblique;
+}
+.bruno {
+	width: 1200px;
+	height: 400px;
+	margin-right: 0;
+}
+.estruturas {
+	font-size: 40px;
+	color: #660033;
+	font-weight: lighter;
+	float: right;
+	margin-right: 420px;
+	margin-top: 10px;
+}
+.textoarmazem {
+	font-size: 18px;
+	color: #000;
+	line-height: 30px;
+	margin-right: -30px;
+	float: right;
+	margin-top: -275px;
+
+}
+.armazem {
+	width: 490px;
+	height: 260px;
+	margin-left: 0px;
+	margin-top: 120px;
+	float: left;
+}
+.felix {
+	float: right;
+	width: 1200px;
+	height: 450px;
+	margin-right: 0;
+}
+.diferencial {
+	font-size: 40px;
+	color: #660033;
+	font-weight: lighter;
+	float: left;
+	margin-left: 170px;
+	margin-top: 100px;
+}
+.qualidade {
+	font-size: 30px;
+	color: #fff;
+	float: right;
+	text-align: right;
+	margin-top: -60px;
+	margin-right: 20px;
+}
+.textodiferencial {
+	font-size: 18px;
+	color: #000;
+	margin-left: 2px;
+	margin-top: 200px;
+	line-height:30px;
+
+}
+.homemtrabalhando {
+	float: right;
+	width: 490px;
+	height: 260px;
+	margin-top: -290px;
+	margin-right: 0px;
+}
+/********PÁGINA HISTÓRIA DA EMPRESA*****/
+
+.historiaempresa {
+	font-size: 35px;
+	color: #660033;
+	text-transform: uppercase;
+	font-weight: lighter;
+	text-align: center;
+	margin-top: 140px;
+}
+.historiaantiga {
+	width: 350px;
+	height: 275px;
+	float: right;
+	margin-top: 15px;
+	padding-left: 30px;
+	margin-right: 30px;
+}
+.historiafoto2 {
+	width: 350px;
+	height: 275px;
+	float: left;
+	margin-top: 20px;
+	padding-right: 30px;
+}
+.textohistoria {
+	font-size: 20px;
+	color: #000000;
+	line-height: 35px;
+	text-align: justify;
+	margin-top: 0px;
+	margin: 40px 40px;
+}
+.textohistoria2 {
+	font-size: 20px;
+	color: #000000;
+	line-height: 35px;
+	text-align: justify;
+	margin-top: -74px;
+	margin: 40px 40px;
+}
+.funcionarios {
+	width: 1200px;
+	height: 350px;
+	margin-top: 100px;
+	background-image: url(imagens/felicidade-profissional.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.fotodologo32 {
+	width: 1200px;
+	height: 500px;
+}
+.foto32 {
+	width: 400px;
+	height: 370px;
+	margin-top: 85px;
+	background-position: center;
+	float: right;
+	margin-right: 50px;
+}
+.nossaestrutura {
+	font-size: 35px;
+	color: #660033;
+	text-transform: uppercase;
+	font-weight: lighter;
+	text-align: center;
+	margin-top: 53px;
+}
+.estruturas1 {
+	font-size: 18px;
+	color: #000;
+	line-height: 30px;
+	text-align: left;
+	margin-right: 150px;
+	float: left;
+	margin-top: -320px;
+}
+/*******PÁGINA DE SERVIÇOS*********/
+
+
+	
+		
+
+
+.servicosrealizados {
+	color: #660033;
+	font-size: 40px;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 100px;
+	margin-top: -100px;
+	font-weight: lighter;
+}
+.exclusivo {
+	color: #660033;
+	text-align: left;
+	padding: 70px 180px;
+	font-size: 30px;
+}
+.texto1 {
+	text-align: left justify;
+	margin-top: 20px;
+	font-size: 20px;
+	line-height: 30px;
+	margin-left: 185px;
+}
+.fotoexcluviso {
+	float: left;
+	margin-left: 40px;
+	margin-top: -100px;
+}
+.express {
+	color: #660033;
+	text-align: left;
+	padding: 20px 180px;
+	font-size: 30px;
+}
+.texto2 {
+	text-align: left justify;
+	margin-top: 20px;
+	font-size: 20px;
+	line-height: 30px;
+	margin-left: 185px;
+}
+.fotoexpress {
+	float: left;
+	margin-left: 40px;
+	margin-top: -100px;
+}
+.aereo {
+	color: #660033;
+	text-align: left;
+	padding: 20px 180px;
+	font-size: 30px;
+}
+.texto3 {
+	text-align: left justify;
+	margin-top: 20px;
+	font-size: 20px;
+	line-height: 30px;
+	margin-left: 185px;
+}
+.fotoaereo {
+	float: left;
+	margin-left: 40px;
+	margin-top: -110px;
+}
+.fracionado {
+	color: #660033;
+	text-align: left;
+	padding: 20px 180px;
+	font-size: 30px;
+}
+.texto4 {
+	text-align: left justify;
+	margin-top: 20px;
+	font-size: 20px;
+	line-height: 30px;
+	margin-left: 185px;
+}
+.fotofracionados {
+	float: left;
+	margin-left: 40px;
+	margin-top: -120px;
+}
+.residenciais {
+	color: #660033;
+	text-align: left;
+	padding: 20px 180px;
+	font-size: 30px;
+}
+.texto5 {
+	text-align: left justify;
+	margin-top: 20px;
+	font-size: 20px;
+	line-height: 30px;
+	margin-left: 185px;
+}
+.fotomudancas {
+	float: left;
+	margin-left: 40px;
+	margin-top: -140px;
+}
+.programada {
+	color: #660033;
+	text-align: left;
+	padding: 20px 180px;
+	font-size: 30px;
+}
+.texto6 {
+	text-align: left justify;
+	margin-top: 20px;
+	font-size: 20px;
+	line-height: 30px;
+	margin-left: 185px;
+}
+.fotoprogramada {
+	float: left;
+	margin-left: 40px;
+	margin-top: -150px;
+}
+.veiculosurbanos {
+	color: #660033;
+	text-align: left;
+	padding: 20px 180px;
+	font-size: 30px;
+}
+.texto7 {
+	text-align: left justify;
+	margin-top: 20px;
+	font-size: 20px;
+	line-height: 30px;
+	margin-left: 185px;
+}
+.fotourbanos {
+	float: left;
+	margin-left: 40px;
+	margin-top: -120px;
+}
+.plataforma {
+	color: #660033;
+	text-align: left;
+	padding: 20px 180px;
+	font-size: 30px;
+}
+.texto8 {
+	text-align: left justify;
+	margin-top: 20px;
+	font-size: 20px;
+	line-height: 30px;
+	margin-left: 185px;
+}
+.fotoempilhadeira {
+	float: left;
+	margin-left: 40px;
+	margin-top: -120px;
+}
+.embalagens {
+	color: #660033;
+	text-align: left;
+	padding: 20px 180px;
+	font-size: 30px;
+}
+.texto9 {
+	text-align: left justify;
+	margin-top: 20px;
+	font-size: 20px;
+	line-height: 30px;
+	margin-left: 185px;
+}
+.fotopallets {
+	float: left;
+	margin-left: 40px;
+	margin-top: -120px;
+}
+/*PÁGINA FROTA//////////////////*/
+
+
+.eficiencia {
+	color: #660033;
+	font-weight: lighter;
+	font-size: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 100px;
+	margin-top: 40px;
+}
+p {
+	text-align: left justify;
+	margin-top: 20px;
+	font-size: 20px;
+	line-height: 30px;
+	margin-left: 100px;
+}
+h2 {
+	color: #660033;
+	font-size: 30px;
+	text-align: left;
+	margin-top: 40px;
+	margin-left: 100px;
+}
+h3 {
+	text-align: left;
+	margin-top: 20px;
+	font-size: 20px;
+	margin-left: 100px;
+	line-height: 40px;
+}
+.fotofrota {
+	width: 200px;
+	height: 260px;
+	float: right;
+	margin-right: 40px;
+	margin-top: -300px;
+}
+.check {
+	width: 30px;
+	height: 30px;
+	float: left;
+	margin-top: -40px;
+	margin-left: -30px;
+}
+/*//////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+/*PÁGINA DE CLIENTES E SERVIÇOS*/
+
+
+
+.clientes {
+	font-weight: lighter;
+	color: #660033;
+	font-size: 40px;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 100px;
+	margin-top: -100px;
+}
+section {
+	margin-top: 50px;
+}
+.clienteum {
+	color: #660033;
+	text-align: left;
+	padding: 20px 225px;
+	font-size: 30px;
+	margin-top: 20px
+}
+.texto1 {
+	text-align: left justify;
+	margin-top: 20px;
+	font-size: 20px;
+	line-height: 30px;
+	margin-left: 225px;
+}
+.cliente1 {
+	float: left;
+	margin-left: 40px;
+	margin-top: -100px;
+	width: 150px;
+	height: 150px;
+}
+.clientedois {
+	color: #660033;
+	text-align: left;
+	padding: 0px 225px;
+	font-size: 30px;
+	margin-top: 120px;
+}
+.texto2 {
+	text-align: left justify;
+	margin-top: 20px;
+	font-size: 20px;
+	line-height: 30px;
+	margin-left: 225px;
+}
+.cliente2 {
+	float: left;
+	margin-left: 40px;
+	margin-top: -100px;
+	width: 150px;
+	height: 150px;
+}
+.clientetres {
+	color: #660033;
+	text-align: left;
+	padding: 0px 225px;
+	font-size: 30px;
+	margin-top: 120px;
+}
+.texto3 {
+	text-align: left justify;
+	margin-top: 20px;
+	font-size: 20px;
+	line-height: 30px;
+	margin-left: 225px;
+}
+.cliente3 {
+	float: left;
+	margin-left: 40px;
+	margin-top: -100px;
+	width: 150px;
+	height: 150px;
+}
+.clientequatro {
+	color: #660033;
+	text-align: left;
+	padding: 0px 225px;
+	font-size: 30px;
+	margin-top: 120px;
+}
+.texto4 {
+	text-align: left justify;
+	margin-top: 20px;
+	font-size: 20px;
+	line-height: 30px;
+	margin-left: 225px;
+}
+.cliente4 {
+	float: left;
+	margin-left: 40px;
+	margin-top: -100px;
+	width: 150px;
+	height: 150px;
+}
+.clientequinto {
+	color: #660033;
+	text-align: left;
+	padding: 0px 225px;
+	font-size: 30px;
+	margin-top: 120px;
+}
+.texto5 {
+	text-align: left justify;
+	margin-top: 20px;
+	font-size: 20px;
+	line-height: 30px;
+	margin-left: 225px;
+}
+.cliente5 {
+	float: left;
+	margin-left: 40px;
+	margin-top: -100px;
+	width: 150px;
+	height: 150px;
+}
+.clientesexto {
+	color: #660033;
+	text-align: left;
+	padding: 0px 225px;
+	font-size: 30px;
+	margin-top: 120px;
+}
+.texto6 {
+	text-align: left justify;
+	margin-top: 20px;
+	font-size: 20px;
+	line-height: 30px;
+	margin-left: 225px;
+}
+.cliente6 {
+	float: left;
+	margin-left: 40px;
+	margin-top: -100px;
+	width: 150px;
+	height: 150px;
+}
+/*////////////////////////////////////////////////////////////////////*/
+
+
+
+/*PÁGINA DE CONTATOS ///////////////////////////////////////////////////*/
+
+section > h1 {
+	font-size: 40px;
+	color: #660033;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: lighter;
+	margin-bottom: 80px;
+	margin-top: 80px;
+}
+.contatos {
+	width: 600px;
+	height: 600px;
+	float: right;
+	margin-right: 0px;
+	margin-top: -530px;
+	border: rgba(0,0,0,1.00);
+	margin-bottom: 30px;
+}
+.telemarketing {
+	width: 350px;
+	height: 290px;
+	float: left;
+	margin-left: -250px;
+	margin-top: 200px;
+}
+.fones {
+	font-size: 20px;
+	color: rgba(0,0,0,1.00);
+	text-align: center;
+	font-weight: lighter;
+	margin-top: 530px;
+	float: left;
+	margin-left: -330px
+}
+.sobrecontatos {
+	font-size: 18px;
+	text-align: center;
+	color: #000000;
+	margin-top: 0px;
+	line-height: 25px;
+	float: left;
+}
+.fale {
+	font-size: 35px;
+	color: #660033;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: lighter;
+	margin-top: 100px;
+	margin-left: 220px;
+	float: left;
+}
+input {
+	border: solid 1px;
+	border-radius: 5px;
+	width: 430px;
+	height: 35px;
+	font-size: 30px;
+	color: rgba(0,0,0,1.00);
+}
+.botoes {
+	width: 435px;
+	height: 40px;
+	margin-top: 20px;
+	float: right;
+	margin-right: 23px;
+	background-color: rgb(0,0,51);
+	font-size: 20px;
+	color: #FFFFFF;
+	text-decoration: blink;
+	border-radius: 15px;
+}
+.caixatexto {
+	border: rgb(0,0,51) solid 1px;
+	border-radius: 5px;
+	width: 430px;
+	height: 250px;
+	font-size: 30px;
+	color: rgba(0,0,0,1.00);
+	margin-right: 23px;
+	float: right;
+	margin-top: 20px;
+}
+.label1 {
+	font-size: 20px;
+	margin-right: 316px;
+	float: right;
+}
+.label2 {
+	font-size: 20px;
+	margin-right: 316px;
+	float: right;
+}
+.label3 {
+	font-size: 20px;
+	margin-right: 201px;
+	float: right;
+	margin-top: 2px;
+}
+.email {
+	border: rgb(0,0,51) solid 1px;
+	border-radius: 5px;
+	width: 430px;
+	height: 35px;
+	font-size: 20px;
+	color: rgba(0,0,0,1.00);
+	margin-right: 23px;
+	margin-top: 10px;
+	float: right;
+}
+.text {
+	border: rgb(0,0,51) solid 1px;
+	border-radius: 5px;
+	width: 430px;
+	height: 35px;
+	font-size: 20px;
+	color: rgba(0,0,0,1.00);
+	margin-right: 23px;
+	margin-top: 10px;
+	float: right;
+}
+/*///////////////////////////////////////////////////////////////////*/
+
+
+footer {
+	width: 100%;
+	height: 350px;
+	color: #fff;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 20px;
+	background-color: #000F5A;
+}
+footer > .direitos {
+	font: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color: #FFFFFF;
+	margin-top: -50px;
+	margin-left: 10px;
+	text-align: left;
+	line-height: 30px;
+	float: left;
+}
+footer > h4 {
+	font: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color: #FFFFFF;
+	margin-top: 280px;
+	margin-left: 10px;
+	text-align: left;
+	line-height: 15px;
+	float: left;
+}
+.principal {
+	margin: 0 auto;
+	width: 1200px;
+	height: 350px;
+	background-color:#000F5A;
+}
+.esquerda {
+	background-color: #000F5A;
+	width: 422px;
+	height: 320px;
+	font-size: 15px;
+	color: #fff;
+	float: left;
+	margin-top: -340px;
+	text-align: left;
+}
+.direita {
+	width: 550px;
+	height: 320px;
+	color: #fff;
+	background-color: #000F5A;
+	font-size: 18px;
+	float: right;
+	margin-top: -350px;
+}
+.faleconosco {
+	font-size: 30px;
+	color: #ffffff;
+	text-decoration: underline;
+	margin-right: -190px;
+}
+.contatosfone {
+	font-size: 20px;
+	font: Georgia, "Times New Roman", Times, serif;
+	color: #ffffff;
+	text-align:center;
+	line-height: 27px;
+	margin-left: 210px;
+}
+.cnpj {
+	font-size: 15px;
+	color: #ffffff;
+	margin-top: -120px;
+	float: left;
+	margin-left: -100px;
+}
+.dados2 {
+	font-size: 15px;
+	color: #ffffff;
+	margin-top: 260px;
+	margin-left: -100px;
+}
+.siganos {
+	font-size: 25px;
+	font: "Times New Roman", Times, serif;
+	color: #fff;
+	float: left;
+	text-align: center;
+	margin-left: 50px;
+	margin-top: -300px
+}
+footer > div {
+	width: 1200px;
+	height: 350px;
+	background-color: rgba(16,60,199,1.00);
+	margin-left: 0px;
+	margin: 0 auto;
+}
+iframe {
+	width: 400px;
+	height: 300px;
+	margin-left: 0px;
+	margin-top: 50px;
+}
+.liques {
+	width: 350px;
+	height: 100px;
+	margin-top: -230px;
+	float: left;
+}
+.facebook {
+	width: 50px;
+	height: 50px;
+	margin-left: 50px
+}
+.youtube {
+	width: 50px;
+	height: 50px;
+	margin-left: 10px;
+}
+.twitter {
+	width: 50px;
+	height: 50px;
+	margin-left:   5px;
+}
+.istagram {
+	width: 50px;
+	height: 50px;
+	margin-left:    5px;
+}
+.dados5 {
+	font-size: 15px;
+	color: #ffffff;
+	margin-top: 0px;
+	margin-left: -100px;
+}
+/*/////////////////////////////////*/
+
+
+
+.body2 {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	background-repeat: no-repeat;
+	background-image: url(imagens/obrigado.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.mainobrigado {
+	width: 1200px;
+	height: 600px;
+	background-color: rgba(255,255,255,0.8);
+	margin-top: 20px;
+}
+.obrigado2 {
+	width: 800px;
+	height: 400px;
+	float: left;
+	border: 1px solid rgba(0,0,0,0.00);
+	background-color: rgba(255, 255, 255, -0.9);
+	margin-top: 100px;
+	margin-left: 200px;
+	font-weight: lighter;
+}
+.botao3 {
+	width: 200px;
+	height: 30px;
+	background-color: rgb(0,0,51);
+	float: right;
+	margin-top: 80px;
+	font-size: 20px;
+	color: #FFFFFF;
+	border-radius: 15px;
+	text-decoration: blink;
+	text-align: center;
+	margin-right: 300px;
+}
+.envio {
+	font-size: 40px;
+	color: #000;
+	text-transform: uppercase;
+	font-weight: lighter;
+	margin-bottom: 80px;
+	margin-top: 20px;
+}
+.obrigado {
+	font-size: 20px;
+	color: #000;
+	text-transform: uppercase;
+	font-weight: lighter;
+	margin-bottom: 80px;
+	margin-top: 20px;
+}
+
+/* D E I X A N D O     ////////////////   R E S P O N S I V O  */
+
+
+@media screen and (max-width: 1000px) {
+main {
+	width: 100%;
+}
+div > .slide {
+	width: 100% !important;
+	height: 350px;
+	float: none;
+}
+.slide > ul {
+	width: 400%;
+	float: none;
+}
+.imgslide {
+	width: 100% !important;
+	height: 350px !important;
+	float: none;
+}
+nav {
+	width: 100% !important;
+	float: none;
+	height: 50px;
+	font-size: 12px;
+	text-align: center;
+	margin-left: -20px;
+}
+.logomenu {
+	display: none;
+	float: none;
+}
+nav > ul > li > a:link {
+	font-size: 15px;
+	text-align: center;
+	float: none;
+	margin-left: -20px;
+}
+.servicosmenu {
+	width: 100%;
+	height: 550px;
+}
+.nossoprincipal {
+	text-align: center;
+	font-size: 30px;
+	float: none;
+}
+.servicostexto {
+	text-align: center;
+	font-size: 20px;
+	line-height: 60px;
+	margin-top: -60px;
+}
+.sectiondiv {
+	width: 100%;
+	height: 1000px;
+	float: none;
+}
+.div1 {
+	width: 35%;
+	height: 960px;
+	margin-right: 5%;
+}
+.botao1 {
+	width: 200px;
+	height: 30px;
+	text-align: center;
+	float: none;
+	margin-left: 15%;
+	font-size: 20px;
+	margin-top: 142px;
+}
+.segurancacaminhao {
+	width: 75%;
+	height: 200px;
+	margin-top: 20px;
+}
+.div2 {
+	width: 35%;
+	height: 960px;
+	margin-left: 5%;
+}
+.caminhao {
+	width: 75%;
+	height: 200px;
+	margin-top: 20px;
+}
+.botao2 {
+	width: 200px;
+	height: 30px;
+	text-align: center;
+	float: none;
+	margin-left: 15%;
+	font-size: 20px;
+	margin-top: 25px;
+}
+.fixa {
+	width: 100%;
+	height: 400px;
+	float: none;
+	margin: 0 auto;
+}
+.fotofixaintermodal { /*texto*/
+	font-size: 50px;
+	text-align: center;
+	margin-top: -390px;
+}
+.branca {
+	width: 100%;
+	overflow: hidden;
+	float: none;
+}
+.bruno {
+	width: 100%;
+	height: 400px;
+	float: none;
+}
+.estruturas {
+	text-align: center;
+	font-size: 30px;
+	float: none;
+	margin-left: 15%;
+}
+.armazem {
+	width: 350px;
+	height: 215px;
+	float: none;
+	margin-left: 4%;
+	margin-top: 40px;
+}
+.textoarmazem {
+	font-size: 16px;
+	float: none;
+	line-height: 30px;
+	margin-top: -220px;
+	margin-left: 55%;
+}
+.felix {
+	width: 100%;
+	height: 450px;
+	float: none;
+}
+.diferencial {
+	text-align: center;
+	font-size: 30px;
+	float: none;
+	margin-left: -50%;
+}
+.textodiferencial {
+	font-size: 16px;
+	text-align: center;
+	float: none;
+	margin: 5px;
+	line-height: 30px;
+	margin-top: 60px;
+	margin-left: -50%;
+}
+.homemtrabalhando {
+	width: 30%;
+	height: 310px;
+	float: none;
+	margin-left: 60%;
+}
+footer {
+	width: 100%;
+	height: 350px;
+}
+.siganos {
+	font-size: 25px;
+	margin-top: -290px;
+	margin-left: -32%;
+	float: none;
+}
+.facebook {
+	width: 50px;
+	height: 60px;
+	margin-left: 20px;
+	margin-top: 250px;
+}
+.youtube {
+	width: 50px;
+	height: 60px;
+	margin-left: 10px;
+	margin-top: 250px;
+}
+.istagram {
+	width: 50px;
+	height: 60px;
+	margin-left: 10px;
+	margin-top: -250px;
+}
+.twitter {
+	width: 50px;
+	height: 60px;
+	margin-left: 10px;
+	margin-top: -250px;
+}
+.liques {
+	width: 100%;
+	height: 300px;
+	margin-top: -185px;
+}
+.iframe1 {
+	width: 350px;
+	height: 200px;
+	float: none;
+	margin-left: 170px;
+}
+.direita {
+	width: 300px;
+	height: 300px;
+	margin-top: -200px;
+	float: none;
+	margin-left: 54%;
+}
+.faleconosco {
+	font-size: 20px;
+	text-align: center;
+}
+.contatosfone {
+	font-size: 15px;
+	text-align: center;
+	float: none;
+	line-height: 30px;
+}
+.dados2 {
+	font-size: 15px;
+	margin-top: 260px;
+	float: none;
+	margin-left: 3px;
+}
+.dados5 {
+	font-size: 15px;
+	margin-top: 0px;
+	float: none;
+	margin-left: -1px;
+}
+.cnpj {
+	font-size: 15px;
+	margin-top: -110px;
+	float: none;
+	margin-left: 5px;
+}
+}
+
+@media screen and (max-width:970px) {
+footer {
+	width: 100%;
+	height: 350px;
+}
+.principal {
+	width: 100%;
+	float: none;
+}
+.iframe1 {
+	width: 50%;
+	float: none;
+}
+.esquerda {
+	width: 30%;
+	float: none;
+	height: 300px;
+	margin-top: -338px;
+	margin-left: 0%;
+}
+.direita {
+	width: 30%;
+	float: none;
+	height: 300px;
+	margin-top: -200px;
+	margin-left: 60%;
+}
+.liques {
+	width: 100%;
+	height: 300px;
+	margin-top: -410px;
+}
+.siganos {
+	font-size: 20px;
+	margin-top: -220px;
+	margin-left: 5%;
+	float: none;
+}
+.facebook {
+	width: 45px;
+	height: 55px;
+	margin-left: 20px;
+	margin-top: 250px;
+}
+.youtube {
+	width: 45px;
+	height: 55px;
+	margin-left: 10px;
+	margin-top: 250px;
+}
+.istagram {
+	width: 45px;
+	height: 55px;
+	margin-left: 10px;
+	margin-top: -250px;
+}
+.twitter {
+	width: 45px;
+	height: 55px;
+	margin-left: 10px;
+	margin-top: -250px;
+}
+.liques {
+	width: 100%;
+	height: 300px;
+	margin-top: -410px;
+}
+.iframe1 {
+	width: 285px;
+	height: 200px;
+	margin-left: 155px;
+}
+.direita {
+	width: 300px;
+	height: 300px;
+	margin-top: -200px;
+	float: none;
+	margin-left: 65%;
+}
+.faleconosco {
+	font-size: 20px;
+	text-align: center;
+}
+.contatosfone {
+	font-size: 15px;
+	text-align: center;
+	float: none;
+	line-height: 30px;
+}
+.dados2 {
+	font-size: 15px;
+	margin-top: 260px;
+	float: none;
+	margin-left: 3px;
+}
+.dados5 {
+	font-size: 15px;
+	margin-top: 0px;
+	float: none;
+	margin-left: -1px;
+}
+.cnpj {
+	font-size: 15px;
+	margin-top: -160px;
+	float: none;
+	margin-left: 5px;
+}
+}
+
+@media screen and (max-width:826px) {
+footer {
+	width: 100%;
+	height: 350px;
+}
+.principal {
+	width: 100%;
+	float: none;
+}
+.iframe1 {
+	width: 50%;
+	float: none;
+}
+.esquerda {
+	width: 30%;
+	float: none;
+	height: 300px;
+	margin-top: -338px;
+	margin-left: 0%;
+}
+.direita {
+	width: 30%;
+	float: none;
+	height: 300px;
+	margin-top: -200px;
+	margin-left: 60%;
+}
+.liques {
+	width: 100%;
+	height: 300px;
+	margin-top: -410px;
+}
+.siganos {
+	font-size: 25px;
+	margin-top: -220px;
+	margin-left: 5%;
+	float: none;
+}
+.facebook {
+	width: 40px;
+	height: 50px;
+	margin-left: 20px;
+	margin-top: 250px;
+}
+.youtube {
+	width: 40px;
+	height: 50px;
+	margin-left: 10px;
+	margin-top: 250px;
+}
+.istagram {
+	width: 40px;
+	height: 50px;
+	margin-left: 10px;
+	margin-top: -250px;
+}
+.twitter {
+	width: 40px;
+	height: 50px;
+	margin-left: 10px;
+	margin-top: -250px;
+}
+.liques {
+	width: 100%;
+	height: 300px;
+	margin-top: -410px;
+}
+.iframe1 {
+	width: 220px;
+	height: 190px;
+	margin-left: 145px;
+}
+.direita {
+	width: 300px;
+	height: 300px;
+	margin-top: -200px;
+	float: none;
+	margin-left: 58%;
+}
+.faleconosco {
+	font-size: 20px;
+	text-align: center;
+}
+.contatosfone {
+	font-size: 15px;
+	text-align: center;
+	float: none;
+	line-height: 30px;
+}
+.dados2 {
+	font-size: 15px;
+	margin-top: 260px;
+	float: none;
+	margin-left: 3px;
+}
+.dados5 {
+	font-size: 15px;
+	margin-top: 0px;
+	float: none;
+	margin-left: -1px;
+}
+.cnpj {
+	font-size: 15px;
+	margin-top: -160px;
+	float: none;
+	margin-left: 5px;
+}
+}
+
+/*         7         6            8      p x    */
+
+
+
+@media screen and (max-width : 768px) {
+main {
+	width: 100%;
+	overflow: hidden;
+}
+nav {
+
+	height: 163px;
+}
+nav > ul > li > a:link {
+	font-size: 15px;
+	line-height: 1.9em;
+	text-align: center;
+}
+.logomenu {
+	float: none;
+}
+.slide {
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 72px !important;
+	float: none;
+}
+.slide > ul> li > img {
+	height: 320px !important;
+	float: none;
+}
+ nav > ul > li > a:linque {
+ color:rgb(0,0,51) !important;
+}
+.nossoprincipal {
+	text-align: center;
+	font-size: 30px;
+}
+.servicostexto {
+	text-align: center;
+	font-size: 20px;
+	line-height: 50px;
+	margin-top: -45px;
+	padding: 20px;
+}
+.servicosmenu {
+	width: 100%;
+	height: 600px;
+}
+.sectiondiv {
+	width: 100%;
+	height: 2075px;
+	float: none;
+}
+.div2 {
+	width: 100%;
+	overflow: hidden;
+	float: none;
+	height: 1000px;
+	border: none;
+	margin-top: 0px;
+}
+.seguranca {
+	text-align: center;
+	font-size: 30px;
+	float: none;
+}
+.segurancacaminhao {
+	width: 60%;
+	height: 300px;
+	margin-top: 90px;
+	margin-left: 20%;
+}
+.primeirotexto {
+	text-align: center;
+	font-size: 20px;
+	line-height: 50px;
+	margin-top: 440px;
+	padding: 20px;
+}
+.botao2 {
+	width: 200px;
+	height: 50px;
+	text-align: center;
+	float: none;
+	margin-left: 37%;
+	font-size: 20px;
+	margin-top: 20px;
+}
+.div1 {
+	width: 100%;
+	overflow: hidden;
+	float: none;
+	height: 1080px;
+	margin-top: 0px;
+	border: none;
+}
+.sobreintermodal {
+	text-align: center;
+	font-size: 30px;
+	float: none;
+	margin-right: 10%;
+}
+.caminhao {
+	width: 60%;
+	height: 300px;
+	margin-top: 90px;
+	margin-right: 24%;
+}
+.segundotexto {
+	text-align: center;
+	font-size: 20px;
+	line-height: 50px;
+	margin-top: 440px;
+	padding: 30px;
+	margin-right: 9%;
+}
+.botao1 {
+	width: 200px;
+	height: 50px;
+	text-align: center;
+	float: none;
+	margin-left: 29%;
+	font-size: 20px;
+	margin-top: -25px;
+}
+.fixa {
+	width: 100%;
+	height: 350px;
+	float: none;
+	margin: 0 auto;
+}
+.fotofixaintermodal { /*texto*/
+	font-size: 40px;
+	text-align: center;
+	margin-top: -340px;
+}
+.qualidade {
+	font-size: 20px;
+	text-align: center;
+	margin-top: -40px;
+}
+.bruno {
+	width: 100%;
+	height: 1000px;
+	float: none;
+	margin: 0 auto;
+}
+.estruturas {
+	text-align: center;
+	font-size: 40px;
+	float: none;
+	margin-left: 20%;
+}
+.armazem {
+	width: 80%;
+	height: 220px;
+	float: none;
+	margin-left: 10%;
+	margin-top: 30px;
+}
+.textoarmazem {
+	text-align: center;
+	font-size: 20px;
+	line-height: 50px;
+	margin-top: 35px;
+	margin-left: 0%;
+}
+.felix {
+	width: 100%;
+	height: 1000px;
+	float: none;
+	margin: 0 auto;
+}
+.diferencial {
+	text-align: center;
+	font-size: 40px;
+	float: none;
+	margin-left: 5%;
+	margin-top: 10px;
+}
+.textodiferencial {
+	text-align: center;
+	font-size: 20px;
+	line-height: 50px;
+	margin-top: 35px;
+	margin-left: 0%;
+}
+.homemtrabalhando {
+	width: 50%;
+	height: 300px;
+	float: none;
+	margin-left: 20%;
+	margin-top: 100px;
+}
+}
+
+@media screen and (max-width : 500px) {
+nav {
+	background-color: rgb(0,0,51);
+	height: 170px;
+	margin-top: -20px;
+}
+nav > ul > li > a:link {
+	font-size: 20px;
+	line-height: 0.9em;
+	margin-left: -50px;
+	padding-left: 20px;
+}
+.logomenu {
+	float: none;
+}
+.slide {
+	width: 100%;
+	height: 210px !important;
+	margin: 0 auto;
+	margin-top: 60px !important;
+	float: none;
+}
+.titulofoto {
+	font-size: 15px;
+	float: none;
+	margin-top: -78px;
+	line-height: 20px;
+	text-decoration: inherit;
+	margin-left: 10px;
+}
+.brasil {
+	font-size: 22px;
+	float: none;
+	margin-left: 35%;
+	margin-top: -44px;
+}
+.slide > ul> li > img {
+	height: 210px !important;
+	float: none;
+}
+ nav > ul > li > a:linque {
+ color:rgb(0,0,51) !important;
+}
+.nossoprincipal {
+	text-align: center;
+	font-size: 30px;
+	margin-top: 10px;
+}
+.servicostexto {
+	text-align: center;
+	font-size: 17px;
+	line-height: 50px;
+	margin-top: -60px;
+	margin-left: 9%;
+}
+.servicosmenu {
+	width: 100%;
+	height: 600px;
+}
+.div1 {
+	width: 100%;
+	overflow: hidden;
+	float: none;
+	height: 1000px;
+	border: none;
+}
+.seguranca {
+	text-align: center;
+	font-size: 30px;
+	float: none;
+}
+.segurancacaminhao {
+	width: 100%;
+	height: 220px;
+	margin: 5px;
+	margin-top: 5px;
+}
+.primeirotexto {
+	text-align: center;
+	font-size: 17px;
+	line-height: 50px;
+	margin-top: -20px;
+	margin-left: 0%;
+}
+.botao2 {
+	width: 200px;
+	height: 50px;
+	text-align: center;
+	float: none;
+	margin-left: 25%;
+	font-size: 15px;
+	margin-top: -18px;
+}
+/*a outra div*/
+			
+.div2 {
+	width: 100%;
+	overflow: hidden;
+	float: none;
+	height: 1290px;
+	margin: 0 auto;
+	border: none;
+	margin-top: -350px;
+}
+.sobreintermodal {
+	text-align: center;
+	font-size: 30px;
+	float: none;
+	margin-top: 360px;
+}
+.caminhao {
+	width: 100%;
+	height: 220px;
+	margin: 5px;
+	margin-top: 5px;
+}
+.segundotexto {
+	text-align: center;
+	font-size: 17px;
+	line-height: 50px;
+	margin-top: 0px;
+	margin-left: 4%;
+}
+.botao1 {
+	width: 200px;
+	height: 50px;
+	text-align: center;
+	float: none;
+	margin-left: 29%;
+	font-size: 15px;
+	margin-top: -40px;
+}
+/*imagem fixa*/
+.fixa {
+	width: 100%;
+	height: 300px;
+	float: none;
+	margin: 0 auto;
+	margin-top: -60px;
+}
+.fotofixaintermodal { /*texto*/
+	font-size: 30px;
+	text-align: center;
+	margin-top: -295px;
+}
+.qualidade {
+	font-size: 15px;
+	text-align: center;
+	margin-top: -25px;
+}
+.bruno {
+	width: 100%;
+	height: 800px;
+	float: none;
+	margin: 0 auto;
+	margin-top: 300px;
+}
+.estruturas {
+	text-align: center;
+	font-size: 35px;
+	float: none;
+	margin-left: 33%;
+	margin-top: -300px;
+}
+.armazem {
+	width: 100%;
+	height: 200px;
+	float: none;
+	margin: 5px;
+	margin-top: 35px;
+}
+.textoarmazem {
+	text-align: center;
+	font-size: 17px;
+	line-height: 50px;
+	margin-top: 0px;
+	margin-left: 4%;
+}
+.felix {
+	width: 100%;
+	height: 1000px;
+	float: none;
+	margin: 0 auto;
+	margin-top: 300px;
+}
+.diferencial {
+	text-align: center;
+	font-size: 35px;
+	line-height: 50px;
+	margin-top: 0px;
+	margin-left: 4%;
+}
+.textodiferencial {
+	text-align: center;
+	font-size: 17px;
+	line-height: 50px;
+	margin-top: 0px;
+	margin-left: 4%;
+}
+.homemtrabalhando {
+	width: 70%;
+	height: 320px;
+	float: none;
+	margin-left: 9%;
+	margin-top: 40px;
+}
+footer {
+	width: 100%px;
+	height: 1170px;
+}
+.siganos {
+	font-size: 40px;
+	margin-top: -510px;
+	margin-left: 0%;
+	float: none;
+}
+.facebook {
+	width: 80px;
+	height: 70px;
+	margin-left: 5%;
+	margin-top: 250px;
+	float: left;
+}
+.youtube {
+	width: 80px;
+	height: 70px;
+	margin-left: 32%;
+	margin-top: 250px;
+	float: left;
+}
+.istagram {
+	width: 80px;
+	height: 70px;
+	margin-left: 29%;
+	float: left;
+	margin-top: -70px;
+}
+.twitter {
+	width: 80px;
+	height: 70px;
+	margin-left: 7%;
+	float: left;
+	margin-top: 250px;
+}
+.iframe1 {
+	width: 100%;
+	height: 300px;
+	float: none;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+.direita {
+	width: 100%;
+	height: 300px;
+	margin-top: 30px;
+	float: right;
+	font-size: 60px;
+}
+.faleconosco {
+	font-size: 30px;
+	text-align: center;
+	margin-left: -17%;
+}
+.contatosfone {
+	font-size: 20px;
+	text-align: center;
+	float: none;
+	line-height: 30px;
+	margin-left: 0%;
+}
+.esquerda {
+	width: 100%;
+	height: 600px;
+	margin-top: 800px;
+}
+.liques {
+	width: 100%;
+	height: 300px;
+	margin-top: -400px;
+}
+.dados2 {
+	font-size: 20px;
+	margin-top: -130px;
+	float: none;
+	text-align: center;
+}
+.dados5 {
+	font-size: 20px;
+	margin-top: 0px;
+	float: none;
+	text-align: center;
+}
+.cnpj {
+	font-size: 20px;
+	margin-top: 0px;
+	float: none;
+	text-align: center;
+}
+}
+
+/*////////////////*/
+
+@media screen and (max-width:500px) {
+.linque {
+	width: 100%;
+}
+.facebook {
+	width: 60px;
+	height: 60px;
+	margin-left: 5%;
+	margin-top: 250px;
+	float: left;
+}
+.youtube {
+	width: 60px;
+	height: 60px;
+	margin-left: 32%;
+	margin-top: 250px;
+	float: left;
+}
+.istagram {
+	width: 60px;
+	height: 60px;
+	margin-left: 30%;
+	float: left;
+	margin-top: -60px;
+}
+.twitter {
+	width: 60px;
+	height: 60px;
+	margin-left: 7%;
+	float: left;
+	margin-top: 250px;
+}
+}
+
+@media screen and (max-width: 360px) {
+nav {
+	background-color: rgb(0,0,51);
+	height: 140px;
+	margin-top: -20px;
+}
+nav > ul > li > a:link {
+	font-size: 18px;
+	line-height: 0.9em;
+	margin-left: -50px;
+	padding-left: 20px;
+}
+.logomenu {
+	float: none;
+}
+.slide {
+	width: 100%;
+	height: 160px !important;
+	margin: 0 auto;
+	margin-top: 122px !important;
+	float: none;
+}
+main {
+	width: 100%;
+	margin: -5px 0 auto;
+}
+.titulofoto {
+	font-size: 10px;
+	float: none;
+	margin-top: -78px;
+	line-height: 20px;
+	text-decoration: inherit;
+	margin-left: 2%;
+}
+.brasil {
+	font-size: 16px;
+	float: none;
+	margin-left: 25%;
+	margin-top: -40px;
+}
+.slide > ul> li > img {
+	height: 160px !important;
+	float: none;
+}
+ nav > ul > li > a:linque {
+ color:rgb(0,0,51) !important;
+}
+.nossoprincipal {
+	text-align: center;
+	font-size: 20px;
+	margin-top: 0px;
+}
+.servicostexto {
+	text-align: justify;
+	font-size: 15px;
+	line-height: 30px;
+	margin: 15px;
+}
+.servicosmenu {
+	width: 100%;
+	height: 600px;
+}
+.div1 {
+	width: 100%;
+	overflow: hidden;
+	float: none;
+	height: 1000px;
+	border: none;
+}
+.seguranca {
+	text-align: center;
+	font-size: 20px;
+	float: none;
+}
+.segurancacaminhao {
+	width: 100%;
+	height: 210px;
+	margin: 5px;
+	margin-top: 40px;
+}
+.primeirotexto {
+	text-align: center;
+	font-size: 15px;
+	line-height: 30px;
+	margin-top: 0px;
+	margin-left: 0%;
+	padding: -1px;
+}
+.botao2 {
+	width: 150px;
+	height: 30px;
+	text-align: center;
+	float: none;
+	margin-left: 29%;
+	font-size: 15px;
+	margin-top: 20px;
+}
+/*a outra div*/
+			
+.div2 {
+	width: 100%;
+	overflow: hidden;
+	float: none;
+	height: 1130px;
+	margin: 0 auto;
+	border: none;
+	margin-top: -350px;
+}
+.sobreintermodal {
+	text-align: center;
+	font-size: 20px;
+	float: none;
+	margin-top: 150px;
+}
+.caminhao {
+	width: 100%;
+	height: 210px;
+	margin: 5px;
+	margin-top: 40px;
+}
+.segundotexto {
+	text-align: center;
+	font-size: 15px;
+	line-height: 30px;
+	margin-top: 0px;
+	margin-left: 9%;
+	padding: -1px;
+}
+.botao1 {
+	width: 150px;
+	height: 30px;
+	text-align: center;
+	float: none;
+	margin-left: 29%;
+	font-size: 15px;
+	margin-top: 20px;
+}
+/*imagem fixa*/
+.fixa {
+	width: 100%;
+	height: 250px;
+	float: none;
+	margin: 0 auto;
+	margin-top: -430px;
+}
+.fotofixaintermodal { /*texto*/
+	font-size: 25px;
+	text-align: center;
+	margin-top: -250px;
+}
+.qualidade {
+	font-size: 17px;
+	text-align: center;
+	margin-top: -45px;
+}
+.bruno {
+	width: 100%;
+	height: 300px;
+	float: none;
+	margin: 0 auto;
+	margin-top: 300px;
+}
+.estruturas {
+	text-align: center;
+	font-size: 22px;
+	float: left;
+	margin-left: 39%;
+	margin-top: -300px;
+}
+.armazem {
+	width: 100%;
+	height: 200px;
+	float: none;
+	margin: 5px;
+	margin-top: -180px;
+}
+.textoarmazem {
+	text-align: center;
+	font-size: 15px;
+	line-height: 30px;
+	margin-top: 0px;
+	margin-left: 0%;
+}
+.felix {
+	width: 100%;
+	height: 680px;
+	float: none;
+	margin: 0 auto;
+	margin-top: 300px;
+}
+.diferencial {
+	text-align: center;
+	font-size: 22px;
+	line-height: 50px;
+	margin-top: -140px;
+	margin-left: 4%;
+}
+.textodiferencial {
+	text-align: center;
+	font-size: 15px;
+	line-height: 30px;
+	margin-top: 0px;
+	margin-left: 0%;
+}
+.homemtrabalhando {
+	width: 60%;
+	height: 250px;
+	float: none;
+	margin-left: 13%;
+	margin-top: 40px;
+}
+footer {
+	width: 100%px;
+	height: 1170px;
+}
+.siganos {
+	font-size: 25px;
+	margin-top: -510px;
+	margin-left: 0%;
+	float: none;
+}
+.facebook {
+	width: 60px;
+	height: 50px;
+	margin-left: 5%;
+	margin-top: 250px;
+}
+.youtube {
+	width: 60px;
+	height: 50px;
+	margin-left: 32%;
+	margin-top: 250px;
+}
+.istagram {
+	width: 60px;
+	height: 50px;
+	margin-left: 29%;
+	margin-top: -50px;
+}
+.twitter {
+	width: 60px;
+	height: 50px;
+	margin-left: 7%;
+	margin-top: 250px;
+}
+.iframe1 {
+	width: 100%;
+	height: 300px;
+	float: none;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+.direita {
+	width: 100%;
+	height: 300px;
+	margin-top: 30px;
+	float: right;
+	font-size: 60px;
+}
+.faleconosco {
+	font-size: 20px;
+	text-align: center;
+	margin-left: -54%;
+}
+.contatosfone {
+	font-size: 17px;
+	text-align: center;
+	float: none;
+	line-height: 30px;
+	margin-left: 0%;
+}
+.esquerda {
+	width: 100%;
+	height: 600px;
+	margin-top: 800px;
+}
+.liques {
+	width: 100%;
+	height: 300px;
+	margin-top: -220px;
+}
+.dados2 {
+	font-size: 16px;
+	margin-top: -130px;
+	float: none;
+	text-align: center;
+}
+.dados5 {
+	font-size: 16px;
+	margin-top: 0px;
+	float: none;
+	text-align: center;
+}
+.cnpj {
+	font-size: 16px;
+	margin-top: 0px;
+	float: none;
+	text-align: center;
+}
+}
+
+/*P Á G I NA    D A    E M P R E S A */
+	
+	
+	
+	
+	
+@media screen and (max-width: 768px) {
+.historia25 {
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+historiaempresa {
+	text-align: center;
+	font-size: 30px;
+	float: none;
+	margin-left: -40%;
+}
+.textohistoria {
+	text-align: justify;
+	font-size: 20px;
+	line-height: 30px;
+	margin-top: 30px;
+}
+.historiaantiga {
+	width: 70%;
+	height: 250px;
+	float: none;
+	margin-top: -20px;
+	margin-left: 8%;
+}
+.textohistoria2 {
+	text-align: justify;
+	font-size: 20px;
+	line-height: 30px;
+	margin-top: 30px;
+}
+.historiafoto2 {
+	width: 70%;
+	height: 250px;
+	float: none;
+	margin-top: 40px;
+	margin-left: 17%;
+}
+.funcionarios {
+	width: 100%;
+	height: 250px;
+	float: none;
+	margin-top: -30px;
+}
+.nossaestrutura {
+	text-align: center;
+	font-size: 30px;
+	float: none;
+	margin-left: 5%;
+}
+.fotodologo32 {
+	width: 100%;
+	height: 900px;
+}
+.estruturas1 {
+	text-align: center;
+	font-size: 20px;
+	line-height: 30px;
+	margin-top: -60px;
+	margin-right: 12%;
+}
+.foto32 {
+	width: 40%;
+	height: 250px;
+	float: none;
+	margin-top: 120px;
+	margin-left: 30%;
+}
+}
+
+@media screen and (max-width: 500px) {
+.historiaempresa {
+	text-align: center;
+	font-size: 25px;
+	float: none;
+	margin-left: 5%;
+}
+.textohistoria {
+	text-align: justify;
+	font-size: 20px;
+	line-height: 30px;
+	margin-top: 30px;
+	margin: 20px;
+}
+.historiaantiga {
+	width: 100%;
+	height: 250px;
+	float: none;
+	margin-top: 60px;
+	margin-left: -6%;
+}
+.textohistoria2 {
+	text-align: justify;
+	font-size: 20px;
+	line-height: 30px;
+	margin-top: 30px;
+	margin: 20px;
+}
+.historiafoto2 {
+	width: 100%;
+	height: 250px;
+	float: none;
+	margin-top: 60px;
+	margin-left: 0%;
+}
+.funcionarios {
+	width: 100%;
+	height: 300px;
+	float: none;
+	margin-top: 15px;
+}
+.nossaestrutura {
+	text-align: center;
+	font-size: 30px;
+	float: none;
+	margin-left: 0%;
+}
+.fotodologo32 {
+	width: 100%;
+	height: 920px;
+	margin-top: 200px;
+}
+.estruturas1 {
+	text-align: center;
+	font-size: 20px;
+	line-height: 30px;
+	margin-top: 30px;
+	margin: 20px;
+}
+.foto32 {
+	width: 300px;
+	height: 300px;
+	float: none;
+	margin-left: 7%;
+	margin-top: -10px;
+}
+.faleconosco {
+	font-size: 20px;
+}
+.siganos {
+	font-size: 30px;
+}
+}
+
+@media screen and (max-width: 360px) {
+nav {
+	background-color: rgb(0,0,51);
+	height: 170px;
+	margin-top: -20px;
+}
+nav > ul > li > a:link {
+	font-size: 20px;
+	line-height: 0.9em;
+	margin-left: -50px;
+	padding-left: 20px;
+}
+.logomenu {
+	float: none;
+}
+.historiaempresa {
+	text-align: center;
+	font-size: 25px;
+	float: none;
+	margin-left: 0%;
+	margin-top: 200px;
+}
+.textohistoria {
+	text-align: justify;
+	font-size: 20px;
+	line-height: 30px;
+	margin-top: 30px;
+	margin: 20px;
+}
+.historiaantiga {
+	width: 100%;
+	height: 250px;
+	float: none;
+	margin-top: 60px;
+}
+.textohistoria2 {
+	text-align: justify;
+	font-size: 20px;
+	line-height: 30px;
+	margin-top: 30px;
+	margin: 20px;
+}
+.historiafoto2 {
+	width: 100%;
+	height: 250px;
+	float: none;
+	margin-top: 60px;
+	margin-left: 0%;
+}
+.funcionarios {
+	width: 100%;
+	height: 300px;
+	float: none;
+	margin-top: 15px;
+}
+.nossaestrutura {
+	text-align: center;
+	font-size: 30px;
+	float: none;
+	margin-top: 0px;
+}
+.fotodologo32 {
+	width: 100%;
+	height: 920px;
+	margin-top: 200px;
+}
+.estruturas1 {
+	text-align: center;
+	font-size: 20px;
+	line-height: 30px;
+	margin-top: -15px;
+}
+.foto32 {
+	width: 300px;
+	height: 300px;
+	float: none;
+	margin-left: 7%;
+	margin-top: -10px;
+}
+.faleconosco {
+	font-size: 20px;
+}
+.siganos {
+	font-size: 30px;
+}
+}
+
+@media screen and (max-width: 768px) {
+.servicosempresa {
+	width: 100%;
+	overflow: hidden;
+}
+.servicosrealizados {
+	font-size: 30px;
+	text-align: center;
+	margin-top: -20px;
+	float: none;
+}
+.exclusivo {
+	font-size: 25px;
+	text-align: left;
+	margin-left: -140px;
+	margin-top: -120px;
+}
+.fotoexcluviso {
+	width: 70px;
+	height: 70px;
+	margin-left: 40px;
+	margin-top: -80px;
+}
+.texto1 {
+	font-size: 15px;
+	margin-top: 30px;
+	margin-left: 20%;
+}
+.express {
+	font-size: 25px;
+	text-align: left;
+	margin-left: -140px;
+}
+.fotoexpress {
+	width: 70px;
+	height: 70px;
+	margin-left: 40px;
+	margin-top: -80px;
+}
+.texto2 {
+	font-size: 15px;
+	margin-top: 30px;
+	margin-left: 20%;
+}
+.aereo {
+	font-size: 25px;
+	text-align: left;
+	margin-left: -140px;
+}
+.fotoaereo {
+	width: 70px;
+	height: 70px;
+	margin-left: 40px;
+	margin-top: -80px;
+}
+.texto3 {
+	font-size: 15px;
+	margin-top: 30px;
+	margin-left: 20%;
+}
+.fracionado {
+	font-size: 25px;
+	text-align: left;
+	margin-left: -140px;
+}
+.fotofracionados {
+	width: 70px;
+	height: 70px;
+	margin-left: 40px;
+	margin-top: -95px;
+}
+.texto4 {
+	font-size: 15px;
+	margin-top: 30px;
+	margin-left: 20%;
+}
+.residenciais {
+	font-size: 25px;
+	text-align: left;
+	margin-left: -140px;
+}
+.fotomudancas {
+	width: 70px;
+	height: 70px;
+	margin-left: 40px;
+	margin-top: -130px;
+}
+.texto5 {
+	font-size: 15px;
+	margin-top: 30px;
+	margin-left: 20%;
+}
+.programada {
+	font-size: 25px;
+	text-align: left;
+	margin-left: -140px;
+}
+.fotoprogramada {
+	width: 70px;
+	height: 70px;
+	margin-left: 40px;
+	margin-top: -140px;
+}
+.texto6 {
+	font-size: 15px;
+	margin-top: 30px;
+	margin-left: 20%;
+}
+.veiculosurbanos {
+	font-size: 25px;
+	text-align: left;
+	margin-left: -140px;
+}
+.fotourbanos {
+	width: 70px;
+	height: 70px;
+	margin-left: 40px;
+	margin-top: -95px;
+}
+.texto7 {
+	font-size: 15px;
+	margin-top: 30px;
+	margin-left: 20%;
+}
+.plataforma {
+	font-size: 25px;
+	text-align: left;
+	margin-left: -140px;
+}
+.fotoempilhadeira {
+	width: 70px;
+	height: 70px;
+	margin-left: 40px;
+	margin-top: -115px;
+}
+.texto8 {
+	font-size: 15px;
+	margin-top: 30px;
+	margin-left: 20%;
+}
+.embalagens {
+	font-size: 25px;
+	text-align: left;
+	margin-left: -140px;
+}
+.fotopallets {
+	width: 70px;
+	height: 70px;
+	margin-left: 40px;
+	margin-top: -95px;
+}
+.texto9 {
+	font-size: 15px;
+	margin-top: 30px;
+	margin-left: 20%;
+}
+}
+
+@media screen and (max-width:500px) {
+nav {
+	background-color: rgb(0,0,51);
+	height: 170px;
+	margin-top: -20px;
+}
+nav > ul > li > a:link {
+	font-size: 20px;
+	line-height: 0.9em;
+	margin-left: -50px;
+	padding-left: 20px;
+}
+.logomenu {
+	float: none;
+}
+.servicosempresa {
+	width: 100%;
+}
+.servicosrealizados {
+	font-size: 25px;
+	text-align: center;
+	margin-top: -20px;
+	float: none;
+}
+.exclusivo {
+	font-size: 20px;
+	text-align: left;
+	margin-left: -30%;
+	float: none;
+}
+.fotoexcluviso {
+	display: none;
+}
+.texto1 {
+	font-size: 15px;
+	text-align: center;
+	margin: 25px;
+}
+.express {
+	font-size: 20px;
+	text-align: left;
+	margin-left: -30%;
+	float: none;
+}
+.fotoexpress {
+	display: none;
+}
+.texto2 {
+	font-size: 15px;
+	text-align: center;
+	margin: 25px;
+}
+.aereo {
+	font-size: 20px;
+	text-align: left;
+	margin-left: -30%;
+	float: none;
+}
+.fotoaereo {
+	display: none;
+}
+.texto3 {
+	font-size: 15px;
+	text-align: center;
+	margin: 25px;
+}
+.fracionado {
+	font-size: 20px;
+	text-align: left;
+	margin-left: -30%;
+	float: none;
+}
+.fotofracionados {
+	display: none;
+}
+.texto4 {
+	font-size: 15px;
+	text-align: center;
+	margin: 25px;
+}
+.residenciais {
+	font-size: 20px;
+	text-align: left;
+	margin-left: -30%;
+	float: none;
+}
+.fotomudancas {
+	display: none;
+}
+.texto5 {
+	font-size: 15px;
+	text-align: center;
+	margin: 25px;
+}
+.programada {
+	font-size: 20px;
+	text-align: left;
+	margin-left: -30%;
+	float: none;
+}
+.fotoprogramada {
+	display: none;
+}
+.texto6 {
+	font-size: 15px;
+	text-align: center;
+	margin: 25px;
+}
+.veiculosurbanos {
+	font-size: 20px;
+	text-align: left;
+	margin-left: -30%;
+	float: none;
+}
+.fotourbanos {
+	display: none;
+}
+.texto7 {
+	font-size: 15px;
+	text-align: center;
+	margin: 25px;
+}
+.plataforma {
+	font-size: 20px;
+	text-align: left;
+	margin-left: -30%;
+	float: none;
+}
+.fotoempilhadeira {
+	display: none;
+}
+.texto8 {
+	font-size: 15px;
+	text-align: center;
+	margin: 25px;
+}
+.embalagens {
+	font-size: 20px;
+	text-align: left;
+	margin-left: -31%;
+	float: none;
+}
+.fotopallets {
+	display: none;
+}
+.texto9 {
+	font-size: 15px;
+	text-align: center;
+	margin: 25px;
+}
+}
+
+@media screen and (max-width:360px) {
+.servicosempresa {
+	width: 100%;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.servicosrealizados {
+	font-size: 20px;
+	text-align: center;
+	margin-top: 45px;
+	float: none;
+}
+.exclusivo {
+	font-size: 15px;
+	text-align: left;
+	margin-top: -187px;
+	margin-left: -16%;
+}
+.fotoexcluviso {
+	display: none;
+}
+.texto1 {
+	font-size: 15px;
+	text-align: center;
+}
+.express {
+	font-size: 15px;
+	text-align: left;
+	margin-left: -16%;
+}
+.fotoexpress {
+	display: none;
+}
+.texto2 {
+	font-size: 15px;
+	text-align: center;
+}
+.aereo {
+	font-size: 15px;
+	text-align: left;
+	margin-left: -16%;
+}
+.fotoaereo {
+	display: none;
+}
+.texto3 {
+	font-size: 15px;
+	text-align: center;
+}
+.fracionado {
+	font-size: 15px;
+	text-align: left;
+	margin-left: -16%;
+}
+.fotofracionados {
+	display: none;
+}
+.texto4 {
+	font-size: 15px;
+	text-align: center;
+}
+.residenciais {
+	font-size: 15px;
+	text-align: left;
+	margin-left: -16%;
+}
+.fotomudancas {
+	display: none;
+}
+.texto5 {
+	font-size: 15px;
+	text-align: center;
+}
+.programada {
+	font-size: 15px;
+	text-align: left;
+	margin-left: -16%;
+}
+.fotoprogramada {
+	display: none;
+}
+.texto6 {
+	font-size: 15px;
+	text-align: center;
+}
+}
+
+/*////////////////////////    frota////////////////*/
+
+
+
+
+@media screen and (max-width:768px) {
+.sectionfrota {
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.eficiencia {
+	font-size: 25px;
+	text-align: center;
+}
+.textofrota1 {
+	font-size: 18px;
+	text-align: center;
+	margin: 25px;
+}
+.sectionfrota > h2 {
+	font-size: 25px;
+	text-align: center;
+	float: none;
+	margin-left: 0%;
+}
+.sectionfrota > h2 {
+	margin-top: 140px;
+	float: none;
+	text-align: center;
+}
+.fotofrota {
+	width: 100%;
+	height: 300px;
+	margin-top: 10px;
+	margin-left: 0%;
+	float: none;
+}
+}
+
+@media screen and (max-width:500px) {
+.sectionfrota {
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.eficiencia {
+	font-size: 20px;
+	text-align: center;
+}
+.textofrota1 {
+	font-size: 19px;
+	text-align: center;
+	margin: 25px;
+}
+.sectionfrota > h2 {
+	font-size: 25px;
+	text-align: center;
+	float: none;
+	margin-left: 0%;
+}
+.sectionfrota > h3 {
+	margin-top: 80px;
+	float: none;
+	text-align: left;
+	font-size: 18px;
+}
+.fotofrota {
+	width: 100%;
+	height: 300px;
+	margin-top: 10px;
+	margin-left: 0%;
+	float: none;
+}
+}
+
+@media screen and (max-width:360px) {
+.sectionfrota {
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.eficiencia {
+	font-size: 18px;
+	text-align: center;
+	margin-top: 120px;
+	margin-left: 0%;
+}
+.textofrota1 {
+	font-size: 15px;
+	text-align: justify;
+	margin-top: -100px;
+}
+.sectionfrota > h2 {
+	font-size: 20px;
+	text-align: center;
+	float: none;
+	margin-left: 0%;
+}
+.sectionfrota > h3 {
+	margin-top: 80px;
+	float: none;
+	text-align: left;
+	font-size: 15px;
+	margin-left: 16%;
+}
+.fotofrota {
+	width: 100%;
+	height: 250px;
+	margin-top: 10px;
+	margin-left: 0%;
+	float: none;
+}
+}
+
+@media screen and (max-width: 768px) {
+.nossosclientes {
+	width: 100%;
+	margin-top: 0px;
+	margin: 0 auto;
+}
+.clientes {
+	font-size: 25px;
+	margin-top: 100px;
+	text-align: center;
+}
+.clienteum {
+	font-size: 20px;
+	margin-top: -80px;
+	text-align: left;
+	margin-left: -120px;
+}
+.cliente1 {
+	width: 90px;
+	height: 90px;
+	margin-left: 20px;
+	margin-top: -120px;
+}
+.texto1 {
+	font-size: 15px;
+	text-align: left;
+}
+.clientedois {
+	font-size: 20px;
+	text-align: left;
+	margin-left: -120px;
+}
+.cliente2 {
+	width: 90px;
+	height: 90px;
+	margin-left: 20px;
+	margin-top: -120px;
+}
+.texto2 {
+	font-size: 15px;
+	text-align: left;
+}
+.clientetres {
+	font-size: 20px;
+	text-align: left;
+	margin-left: -120px;
+}
+.cliente3 {
+	width: 90px;
+	height: 90px;
+	margin-left: 20px;
+	margin-top: -118px;
+}
+.texto3 {
+	font-size: 15px;
+	text-align: left;
+}
+.clientequatro {
+	font-size: 20px;
+	text-align: left;
+	margin-left: -120px;
+}
+.cliente4 {
+	width: 90px;
+	height: 90px;
+	margin-left: 20px;
+	margin-top: -120px;
+}
+.texto4 {
+	font-size: 15px;
+	text-align: left;
+}
+.clientequinto {
+	font-size: 20px;
+	text-align: left;
+	margin-left: -140px;
+}
+.cliente5 {
+	width: 90px;
+	height: 90px;
+	margin-left: 20px;
+	margin-top: -120px;
+}
+.texto5 {
+	font-size: 15px;
+	text-align: left;
+}
+.clientesexto {
+	font-size: 20px;
+	text-align: left;
+	margin-left: -140px;
+}
+.cliente6 {
+	width: 90px;
+	height: 90px;
+	margin-left: 20px;
+	margin-top: -120px;
+}
+.texto6 {
+	font-size: 15px;
+	text-align: left;
+}
+}
+
+@media screen and (max-width: 500px) {
+.nossosclientes {
+	width: 100%;
+	margin-top: 0px;
+}
+.clientes {
+	font-size: 25px;
+	margin-top: 100px;
+	text-align: center;
+}
+.clienteum {
+	font-size: 20px;
+	margin-top: -80px;
+	text-align: left;
+	margin-left: -40%;
+	float: none;
+}
+.cliente1 {
+	display: none;
+}
+.texto1 {
+	font-size: 15px;
+	text-align: justify;
+}
+.clientedois {
+	font-size: 20px;
+	text-align: left;
+	margin-left: -40%;
+	float: none;
+}
+.cliente2 {
+	display: none;
+}
+.texto2 {
+	font-size: 15px;
+	text-align: justify;
+}
+.clientetres {
+	font-size: 20px;
+	text-align: left;
+	margin-left: -40%;
+	float: none;
+}
+.cliente3 {
+	display: none;
+}
+.texto3 {
+	font-size: 15px;
+	text-align: justify;
+}
+.clientequatro {
+	font-size: 20px;
+	text-align: left;
+	margin-left: -40%;
+	float: none;
+}
+.cliente4 {
+	display: none;
+}
+.texto4 {
+	font-size: 15px;
+	text-align: justify;
+}
+.clientequinto {
+	font-size: 20px;
+	text-align: left;
+	margin-left: -40%;
+	float: none;
+}
+.cliente5 {
+	display: none;
+}
+.texto5 {
+	font-size: 15px;
+	text-align: justify;
+}
+.clientesexto {
+	font-size: 20px;
+	text-align: left;
+	margin-left: -40%;
+	float: none;
+}
+.cliente6 {
+	display: none;
+}
+.texto6 {
+	font-size: 15px;
+	text-align: justify;
+}
+}
+
+@media screen and (max-width:360px) {
+.nossosclientes {
+	width: 100%;
+	margin: 0 auto;
+	float: none;
+}
+.clientes {
+	font-size: 22px;
+	margin-top: 100px;
+	text-align: center;
+}
+.clienteum {
+	font-size: 18px;
+	margin-left: -33%;
+	margin-top: -80px;
+	text-align: center;
+	float: none;
+}
+.cliente1 {
+	display: none;
+}
+.texto1 {
+	font-size: 15px;
+	text-align: justify;
+}
+.clientedois {
+	font-size: 18px;
+	margin-left: -38%;
+	text-align: center;
+	float: none;
+}
+.cliente2 {
+	display: none;
+}
+.texto2 {
+	font-size: 15px;
+	text-align: justify;
+}
+.clientetres {
+	font-size: 18px;
+	margin-left: -35%;
+	text-align: center;
+	float: none;
+}
+.cliente3 {
+	display: none;
+}
+.texto3 {
+	font-size: 15px;
+	text-align: justify;
+}
+.clientequatro {
+	font-size: 18px;
+	margin-left: -26%;
+	text-align: center;
+	float: none;
+}
+.cliente4 {
+	display: none;
+}
+.texto4 {
+	font-size: 15px;
+	text-align: justify;
+}
+.clientequinto {
+	font-size: 18px;
+	margin-left: -30%;
+	text-align: center;
+	float: none;
+}
+.cliente5 {
+	display: none;
+}
+.texto5 {
+	font-size: 15px;
+	text-align: justify;
+}
+.clientesexto {
+	font-size: 18px;
+	margin-left: -34%;
+	text-align: center;
+	float: none;
+}
+.cliente6 {
+	display: none;
+}
+.texto6 {
+	font-size: 15px;
+	text-align: justify;
+}
+}
+
+/*////////////////////    C O N T A T O S */
+
+
+@media screen and (max-width:768px) {
+.doscontatos {
+	width: 100%;
+	float: none;
+	margin: 0 auto;
+}
+.contatostitulo {
+	text-align: center;
+	font-size: 25px;
+}
+.sobrecontatos {
+	font-size: 20px;
+	text-align: center;
+	margin: 25px;
+}
+.fale {
+	font-size: 20px;
+	text-align: center;
+	margin-left: 38%;
+}
+.telemarketing {
+	width: 250px;
+	height: 220px;
+	margin-left: -360px;
+	margin-top: 200px;
+}
+.text {
+	width: 340px;
+	height: 35px;
+}
+.email {
+	width: 340px;
+	height: 35px;
+}
+.caixatexto {
+	width: 340px;
+	height: 200px;
+}
+.botoes {
+	width: 340px;
+	height: 30px;
+}
+.label1 {
+	margin-right: 220px;
+}
+.label2 {
+	margin-right: 220px;
+}
+.label3 {
+	margin-right: 100px;
+	margin-top: 20px;
+}
+.fones {
+	text-align: center;
+	font-size: 15px;
+	margin-left: -355px;
+}
+}
+
+@media screen and (max-width:500px) {
+.doscontatos {
+	width: 100%;
+	float: none;
+	margin: 0 auto;
+}
+.contatostitulo {
+	text-align: center;
+	font-size: 25px;
+}
+.contatos {
+	width: 100%;
+	margin-top: 10px;
+	margin-left: 10%;
+	
+}
+.sobrecontatos {
+	font-size: 20px;
+	text-align: center;
+	margin: 25px;
+}
+.fale {
+	font-size: 20px;
+	text-align: center;
+	margin-left: 38%;
+}
+.telemarketing {
+	width: 250px;
+	height: 220px;
+	margin-left: -220px;
+	margin-top: 200px;
+}
+.text {
+	width: 430px;
+	height: 35px;
+	margin-left: -20px;
+}
+.email {
+	width: 430px;
+	height: 35px;
+}
+.caixatexto {
+	width: 430px;
+	height: 200px;
+}
+.botoes {
+	width: 430px;
+	height: 30px;
+}
+.label1 {
+	margin-right: 170px;
+}
+.label2 {
+	margin-right: 170px;
+}
+.label3 {
+	margin-right: 110px;
+	margin-top: 20px;
+}
+.fones {
+	text-align: center;
+	font-size: 15px;
+	margin-left: -235px;
+	margin-top: 430px;
+}
+}
+
+
+@media screen and (max-width:360px) {
+.doscontatos {
+	width: 100%;
+	float: none;
+	margin: 0 auto;
+}
+.contatostitulo {
+	text-align: center;
+	font-size: 25px;
+	margin-top:200px;	
+}
+.contatos {
+	width: 100%;
+	margin-top: 10px;
+	margin-left: 10%;
+	
+}
+.sobrecontatos {
+	font-size: 17px;
+	text-align: center;
+	margin: 25px;
+}
+.fale {
+	font-size: 20px;
+	text-align: center;
+	margin-left: 30%;
+}
+.telemarketing {
+	width: 250px;
+	height: 220px;
+	margin-left: -220px;
+	margin-top: 200px;
+}
+.text {
+	width: 300px;
+	height: 35px;
+	margin-left: -20px;
+}
+.email {
+	width: 300px;
+	height: 35px;
+}
+.caixatexto {
+	width: 300px;
+	height: 200px;
+}
+.botoes {
+	width: 300px;
+	height: 30px;
+}
+.label1 {
+	margin-right: 41%;
+}
+.label2 {
+	margin-right: 41%;
+}
+.label3 {
+	margin-right: 40px;
+	margin-top: 20px;
+}
+.fones {
+	text-align: center;
+	font-size: 15px;
+	margin-left: -235px;
+	margin-top: 430px;
+}
+}
